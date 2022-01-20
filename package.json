@@ -10,6 +10,7 @@
   ],
   "type": "module",
   "main": "./lib/node-static.js",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
       "import": "./lib/node-static.js",
