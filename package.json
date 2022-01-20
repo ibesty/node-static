@@ -1,6 +1,6 @@
 {
-  "name": "node-static-server",
-  "version": "0.7.12",
+  "name": "@bestie/node-static",
+  "version": "0.7.14",
   "description": "simple, compliant file streaming module for node",
   "author": "Alexis Sellier <alexis@cloudhead.io>",
   "contributors": [
@@ -18,9 +18,6 @@
     }
   },
   "license": "MIT",
-  "bin": {
-    "static": "bin/cli.js"
-  },
   "keywords": [
     "http",
     "static",
@@ -33,14 +30,12 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "./bin/cli.js",
     "lint": "eslint --ext=cjs,js .",
     "mocha": "mocha test/integration --parallel",
     "test": "c8 npm run mocha"
   },
   "dependencies": {
     "colors": "1.4.0",
-    "command-line-basics": "^1.0.2",
     "mime": "^3.0.0",
     "minimatch": "^3.0.4"
   },
